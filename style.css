@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh ;
+    width: 100%;
+    flex-direction: column;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M548 328L547 64' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M940 353L939 187' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M788 279L787 683' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M237 154L236 453' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1015 215L1014 -34' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M26 177L25 17' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1190 30L1189 -224' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M300 210L299 421' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M211 16L210 184' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M726 63L725 -161' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M440 385L439 192' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M129 39L128 -126' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M695 111L694 498' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1056 371L1055 747' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1009 536L1008 241' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1004 545L1003 228' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1275 242L1274 -72' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M793 338L792 -44' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M640 541L639 282' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1414 98L1413 -182' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M791 558L790 243' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M886 228L885 -63' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M181 124L180 -202' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1129 267L1128 644' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1291 489L1290 118' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1327 8L1326 -207' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1351 75L1350 -200' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1377 28L1376 336' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1206 15L1205 -359' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M97 497L96 806' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M789 27L788 -176' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1352 35L1351 -235' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient1001%26quot%3b)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1080 409L1079 24' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1430 244L1429 388' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M410 128L409 300' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M990 411L989 821' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient1002%26quot%3b)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient1001'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1002'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    
+}
+h1{
+    color:aliceblue;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 5px 5px black;
+}
+button{
+    font-style: italic;
+    font-size: 15px;
+    text-shadow:  1px black;
+    background-color: black;
+    color: aliceblue;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor:pointer;
+}
+textarea{
+    width: 300px;
+    height:100px;
+    margin: 25px;
+    box-shadow: 10px 7px 7px black;
+    border: none;
+    outline: none;
+
+}
